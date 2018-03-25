@@ -1,0 +1,2 @@
+C:\Users\New\Source\Repos\DipSWDTestExercise\DipTestingUnitTests\obj\Debug\DipTestingUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\New\Source\Repos\DipSWDTestExercise\DipTestingUnitTests\obj\Debug\DipTestingUnitTests.csproj.CoreCompileInputs.cache
