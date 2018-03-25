@@ -14,6 +14,7 @@ namespace DipTestingExercises.Tests
     public class DriverTests
     {
         private Driver vDriver;
+        string result;
 
         [SetUp]
         public void SetUp()
@@ -24,16 +25,18 @@ namespace DipTestingExercises.Tests
         [Test]
         public void DriverTest()
         {
-            Assert.AreSame(vDriver.fname, "CopKilla");
-            Assert.AreSame(vDriver.lname, "McCopKillaFace");
-            Assert.AreSame(vDriver.ge, "");
-            Assert.AreSame(vDriver., "");
+            Assert.AreSame("CopKilla", vDriver.fname);
+            Assert.AreSame("McCopKillaFace", vDriver.lname);
+            Assert.AreSame("Female", vDriver.getGender());
+            Assert.AreSame("Fake", vDriver.getLicenceType());
         }
 
         [Test]
         public void getLicenceTypeTest()
         {
-            Assert.Fail();
+           result = vDriver.getLicenceType();
+
+            Assert.AreSame("Fake", result);
         }
     }
 }
